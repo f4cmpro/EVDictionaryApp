@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <TextView
+        android:id="@+id/tv_number_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="1/10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Question ?"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:padding="6sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_margin="8sp"
+            android:background="@drawable/choices_button_custom"
+            android:text="A"
+            android:id="@+id/btn_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="8sp"
+            android:background="@drawable/choices_button_custom"
+            android:text="B"
+            android:id="@+id/btn_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:background="@drawable/choices_button_custom"
+            android:text="C" />
+
+        <Button
+            android:layout_margin="8sp"
+            android:background="@drawable/choices_button_custom"
+            android:text="D"
+            android:id="@+id/btn_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="8sp"
+            android:background="@drawable/choices_button_custom"
+            android:text="E"
+            android:id="@+id/btn_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

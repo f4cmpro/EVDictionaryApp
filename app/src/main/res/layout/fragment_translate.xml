@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imv_trans_1"
+            android:layout_width="72sp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/vietnam_icon" />
+
+        <EditText
+            android:textColor="@color/colorAccentText"
+            android:id="@+id/edt_trans"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/edittext_custom"
+            android:hint="Nhập vào câu cần dịch"
+            android:padding="4sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imv_trans_2"
+            android:layout_weight="1"
+            android:layout_width="72sp"
+            android:layout_height="0dp"
+            android:src="@drawable/uk_icon" />
+
+        <TextView
+            android:textColor="@color/colorAccentText"
+            android:id="@+id/tv_trans"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/edittext_custom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="translate" />
+
+        <ImageButton
+            android:layout_marginLeft="40sp"
+            android:id="@+id/btn_swap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_swap_vert"/>
+    </LinearLayout>
+
+</LinearLayout>

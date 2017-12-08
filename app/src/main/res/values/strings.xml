@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EVDictionaryApp</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string-array name="drawer_items">
+        <item>Home</item>
+        <item>Favorite</item>
+        <item>Translate</item>
+        <item>Quiz</item>
+        <item>Setting</item>
+        <item>About us</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

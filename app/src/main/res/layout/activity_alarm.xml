@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"></include>
+
+    <TimePicker
+        android:numbersInnerTextColor="@color/colorPrimary"
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"></TimePicker>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:textColor="@color/colorAccentText"
+            android:backgroundTint="@color/colorAccent"
+            android:id="@+id/btn_turn_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="turn on" />
+
+        <Button
+            android:textColor="@color/colorAccentText"
+            android:backgroundTint="@color/colorAccent"
+            android:id="@+id/btn_turn_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:text="turn off" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/colorAccentText"
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Did you set Alarm?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
